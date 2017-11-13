@@ -1,0 +1,62 @@
+h2 {
+  color: black
+}
+li a {
+  color: white;
+  font-size: 1.15em;
+}
+li a:hover {
+  color: rgba(4, 184, 102, 1.0);
+  text-decoration: none;
+}
+.about {
+  margin-top: 5em;
+  background-color: rgba(4, 184, 102, .97);
+  color: white;
+  font-size: 1.65em;
+  padding: 1em 3em;
+}
+.bckgrnd {
+  background-image: url('./Images/woodbg.jpeg');
+  height: 200em;
+}
+.bridge {
+  height: 5em;
+  background-color: rgba(4, 184, 102, 1.0);
+  color: white;
+  text-align: center;
+}
+.carImg {
+  min-height: 50em;
+  max-height: 50em;
+  width: 100%;
+}
+.contact {
+  background-color: rgba(4, 184, 102, .97);
+  color: white;
+  padding: 1em;
+}
+.navFixTop {
+  position: fixed;
+  z-index: 1001;
+  width: 100%;
+}
+.proPic {
+  border: solid .5em white;
+  margin-top: -2em;
+}
+.tabs {
+  background-color: rgba(4, 184, 102, .97);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+  z-index: 1000;
+}
+.tabs:hover {
+  background-color: white;
+  color: rgba(4, 184, 102, 1.0);
+}
+.tabs:hover a {
+  color: rgba(4, 184, 102, 1.0);
+}
