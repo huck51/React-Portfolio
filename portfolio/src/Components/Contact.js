@@ -9,6 +9,7 @@ class Contact extends Component {
     return (
       <div className="contact">
       <h2>Contact</h2>
+      <hr />
         <Row>
           <Col md={6}>
             <FormGroup>

@@ -1,5 +1,10 @@
 h2 {
-  color: black
+  color: white;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+hr {
+  margin: 0 0 1em 0;
 }
 li a {
   color: white;

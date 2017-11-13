@@ -12,6 +12,7 @@ class Projects extends Component {
     return (
       <div>
         <h2>Projects</h2>
+        <hr />
         <Row>
           <Col md={6}>
             <Thumbnail src={jsPiano} href="https://huck51.github.io/Greenfield-Piano/" target="_blank">

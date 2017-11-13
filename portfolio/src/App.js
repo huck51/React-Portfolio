@@ -41,6 +41,7 @@ class App extends Component {
         <Row className="about">
           <Col md={12}>
             <h2>About</h2>
+            <hr />
             <p>Welcome to my portfolio! My name is Evan. I am a fullstack
               developer from Minneapolis. I am currently enrolled at <a href="https://lambdaschool.com/" target="_blank" id="ls">Lambda School </a>
               where I am learning full-stack development using React and React Native.
