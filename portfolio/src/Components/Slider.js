@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import {Carousel, Image} from 'react-bootstrap';
 import fogForest from '../Images/nature-forest-trees-fog.jpeg';
 import stones from '../Images/stackofstones.jpeg';
-import waterRocks from '../Images/wetRocks.jpeg';
+import rockStream from '../Images/rockStream.jpg';
 import '../App.css'
 
 class Slider extends Component {
@@ -26,7 +26,7 @@ class Slider extends Component {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image width={900} height={500} alt="900x500" className="carImg" src={waterRocks} />
+        <Image width={900} height={500} alt="900x500" className="carImg" src={rockStream} />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
