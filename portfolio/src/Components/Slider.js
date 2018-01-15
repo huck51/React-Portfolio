@@ -10,25 +10,22 @@ class Slider extends Component {
 
   render() {
     return (
-      <Carousel>
-        <Carousel.Item>
+      <Carousel className="carousel-fade">
+        <Carousel.Item animateIn animateOut>
           <Image width={900} height={500} alt="900x500" className="carImg" src={fogForest} />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
+          <Carousel.Caption className="slideOne">
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item animateIn animateOut>
         <Image width={900} height={500} alt="900x500" className="carImg" src={stones} />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <Carousel.Caption className="slideTwo">
+          <p>I specialize in making stacks on, stacks on, stacks.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item animateIn animateOut>
         <Image width={900} height={500} alt="900x500" className="carImg" src={rockStream} />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
+        <Carousel.Caption className="slideThree">
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption>
       </Carousel.Item>

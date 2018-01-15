@@ -23,13 +23,14 @@ li a:hover {
 }
 .bckgrnd {
   background-image: url('./Images/woodbg.jpeg');
-  height: 200em;
+  height: 100%;
 }
 .bridge {
   height: 5em;
   background-color: rgba(4, 184, 102, 1.0);
   color: white;
   text-align: center;
+  z-index: 2000;
 }
 .carImg {
   min-height: 50em;
@@ -40,15 +41,76 @@ li a:hover {
   background-color: rgba(4, 184, 102, .97);
   color: white;
   padding: 1em;
+  margin: 1em 0 3em 0;
+}
+.contactButtons {
+  width: 100%;
+}
+.fcc {
+  background-color: darkgreen;
+  color: white;
+}
+.fcc:hover {
+  background-color: white;
+  color: darkgreen;
+  border-color: darkgreen;
+}
+.gitHub {
+  background-color: black;
+  color: white;
+}
+.gitHub:hover {
+  border-color: black;
+}
+.linkedIn {
+  background-color: rgba(0, 96, 151, 1.0);
+  color: white;
+}
+.linkedIn:hover {
+  background-color: white;
+  color: rgba(0, 96, 151, 1.0);
+  border-color: rgba(0, 96, 151, 1.0);
 }
 .navFixTop {
   position: fixed;
   z-index: 1001;
   width: 100%;
 }
+.proBox>img {
+  min-width: 100%;
+}
 .proPic {
   border: solid .5em white;
   margin-top: -2em;
+}
+.proPicBox {
+  z-index: 9000;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1em 1em 1em;
+}
+.slideOne {
+  bottom: 1.5em;
+  border-radius: 1em;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-size: 5em;
+}
+.slideTwo {
+  bottom: 1em;
+  right: 1em;
+  border-radius: 1em;
+  padding: 2em 3em 1em 3em;
+  font-size: 5em;
+}
+.slideThree {
+  bottom: 1em;
+  border-radius: 1em;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-size: 5em;
 }
 .tabs {
   background-color: rgba(4, 184, 102, .97);
@@ -64,4 +126,10 @@ li a:hover {
 }
 .tabs:hover a {
   color: rgba(4, 184, 102, 1.0);
+}
+.thumbnail>img {
+  height: 20em;
+}
+#bridge {
+  padding: .5em;
 }

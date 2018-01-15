@@ -11,7 +11,7 @@ class Contact extends Component {
       <h2>Contact</h2>
       <hr />
         <Row>
-          <Col md={6}>
+          <Col xs={12} sm={12} md={6}>
             <FormGroup>
               <ControlLabel>Name:</ControlLabel>
               <FormControl type="text" placeholder="Ex: John Doe">
@@ -23,7 +23,7 @@ class Contact extends Component {
               </FormControl>
             </FormGroup>
             <FormGroup>
-              <ControlLabel>Phone:</ControlLabel>
+              <ControlLabel>Phone (optional):</ControlLabel>
               <FormControl type="text" placeholder="Ex: ###-###-####">
               </FormControl>
             </FormGroup>
@@ -32,6 +32,7 @@ class Contact extends Component {
               <FormControl componentClass="textarea" placeholder="Your message here...">
               </FormControl>
             </FormGroup>
+            <Button type="submit">Submit</Button>
           </Col>
           <Col md={6}>
             <Row>
@@ -44,16 +45,25 @@ class Contact extends Component {
                 </p>
               </Col>
             </Row>
-              <Col md={4}>
-                <Button>GitHub</Button>
-              </Col>
-              <Col md={4}>
-                <Button>LinkedIn</Button>
-              </Col>
-              <Col md={4}>
-                <Button>FreeCodeCamp</Button>
-              </Col>
             <Row>
+              <Col md={4}>
+                <Button className="contactButtons gitHub"
+                target="_blank"
+                href="https://github.com/huck51"
+                ><i className="fa fa-github" aria-hidden="true"></i> GitHub</Button>
+              </Col>
+              <Col md={4}>
+                <Button className="contactButtons linkedIn"
+                target="_blank"
+                href="https://www.linkedin.com/in/evan-allen-1b533864/"
+                ><i className="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</Button>
+              </Col>
+              <Col md={4}>
+                <Button className="contactButtons fcc"
+                target="_blank"
+                href="https://www.freecodecamp.org/huck51"
+                ><i className="fa fa-free-code-camp" aria-hidden="true"></i> FreeCodeCamp</Button>
+              </Col>
             </Row>
           </Col>
         </Row>

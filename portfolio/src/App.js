@@ -12,30 +12,29 @@ class App extends Component {
       <div className="bckgrnd">
         <Nav bsStyle="pills" className="navFixTop">
           <Row>
-            <Col md={3} className="tabs">
+            <Col xs={12} sm={12} md={3} className="tabs">
           <NavItem href="#home">Home</NavItem>
             </Col>
-            <Col md={3} className="tabs">
+            <Col xs={12} sm={12} md={3} className="tabs">
           <NavItem href="#about">About</NavItem>
             </Col>
-            <Col md={3} className="tabs">
+            <Col xs={12} sm={12} md={3} className="tabs">
           <NavItem href="Projects">Projects</NavItem>
             </Col>
-            <Col md={3} className="tabs">
+            <Col xs={12} sm={12} md={3} className="tabs">
           <NavItem href="Contact">Contact</NavItem>
             </Col>
           </Row>
         </Nav>
         <Slider />
         <Row>
-          <Col md={5} className="bridge">
-            <h2>Evan Allen</h2>
+          <Col md={12} sm={12} className="bridge">
+            <h2 id="bridge">Evan Allen</h2>
           </Col>
-          <Col md={2} className="bridge">
+        </Row>
+        <Row>
+          <Col md={2} sm={6} className="proPicBox">
             <Image src={profPic} className="proPic" responsive circle />
-          </Col>
-          <Col md={5} className="bridge">
-            <h2>Evan Allen</h2>
           </Col>
         </Row>
         <Row className="about">
