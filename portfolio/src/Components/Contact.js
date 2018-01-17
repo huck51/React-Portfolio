@@ -1,6 +1,6 @@
 
 import React, {Component} from 'react';
-import {Row, Col, FormGroup, ControlLabel, FormControl, Button } from 'react-bootstrap';
+import {Row, Col, FormGroup, ControlLabel, FormControl, Button, ButtonGroup } from 'react-bootstrap';
 import '../App.css';
 
 class Contact extends Component {
@@ -8,8 +8,8 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact">
-      <h2>Contact</h2>
-      <hr />
+        <h2>Contact</h2>
+        <hr />
         <Row>
           <Col xs={12} sm={12} md={6}>
             <FormGroup>
@@ -46,23 +46,29 @@ class Contact extends Component {
               </Col>
             </Row>
             <Row>
-              <Col md={4}>
-                <Button className="contactButtons gitHub"
-                target="_blank"
-                href="https://github.com/huck51"
-                ><i className="fa fa-github" aria-hidden="true"></i> GitHub</Button>
+              <Col xs={12} sm={12} md={6} lg={3} className="noPadding">
+                  <Button className="contactButtons"
+                  target="_blank"
+                  href="https://resume.creddle.io/resume/7cix8cvqexc"
+                  ><i className="fa fa-file-text-o" aria-hidden="true"></i> Resume</Button>
               </Col>
-              <Col md={4}>
-                <Button className="contactButtons linkedIn"
-                target="_blank"
-                href="https://www.linkedin.com/in/evan-allen-1b533864/"
-                ><i className="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</Button>
+              <Col xs={12} sm={12} md={6} lg={3} className="noPadding">
+                  <Button className="contactButtons gitHub"
+                  target="_blank"
+                  href="https://github.com/huck51"
+                  ><i className="fa fa-github" aria-hidden="true"></i> GitHub</Button>
               </Col>
-              <Col md={4}>
-                <Button className="contactButtons fcc"
-                target="_blank"
-                href="https://www.freecodecamp.org/huck51"
-                ><i className="fa fa-free-code-camp" aria-hidden="true"></i> FreeCodeCamp</Button>
+              <Col xs={12} sm={12} md={6} lg={3} className="noPadding">
+                  <Button className="contactButtons linkedIn"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/evan-allen-1b533864/"
+                  ><i className="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</Button>
+              </Col>
+              <Col xs={12} sm={12} md={6} lg={3} className="noPadding">
+                  <Button className="contactButtons fcc"
+                  target="_blank"
+                  href="https://www.freecodecamp.org/huck51"
+                  ><i className="fa fa-free-code-camp" aria-hidden="true"></i> FreeCodeCamp</Button>
               </Col>
             </Row>
           </Col>

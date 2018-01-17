@@ -14,13 +14,13 @@ class Slider extends Component {
         <Carousel.Item animateIn animateOut>
           <Image width={900} height={500} alt="900x500" className="carImg" src={fogForest} />
           <Carousel.Caption className="slideOne">
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>Don't let your website fade into the mist.</p>
           </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item animateIn animateOut>
         <Image width={900} height={500} alt="900x500" className="carImg" src={stones} />
         <Carousel.Caption className="slideTwo">
-          <p>I specialize in making stacks on, stacks on, stacks.</p>
+          <p>Vivid web apps that scale to meet your growing business needs.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item animateIn animateOut>

@@ -4,6 +4,10 @@ import Slider from './Components/Slider';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import profPic from './Images/snipe.png';
+import sundown from './Images/sundown.jpg';
+import jump from './Images/jump.jpg';
+import chairlift from './Images/chairlift.jpg';
+import banner from './Images/linkedinbanner.jpeg';
 import './App.css';
 
 class App extends Component {
@@ -11,7 +15,7 @@ class App extends Component {
     return (
       <div className="bckgrnd">
         <Nav bsStyle="pills" className="navFixTop">
-          <Row>
+          <Row className="noPadding">
             <Col xs={12} sm={12} md={3} className="tabs">
           <NavItem href="#home">Home</NavItem>
             </Col>
@@ -27,19 +31,26 @@ class App extends Component {
           </Row>
         </Nav>
         <Slider />
-        <Row>
-          <Col md={12} sm={12} className="bridge">
-            <h2 id="bridge">Evan Allen</h2>
+        <Row className="intro">
+          <Col xs={12} sm={12} md={3} lg={3}>
+            <p>Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
           </Col>
-        </Row>
-        <Row>
-          <Col md={2} sm={6} className="proPicBox">
-            <Image src={profPic} className="proPic" responsive circle />
+          <Col xs={12} sm={12} md={3} lg={3}>
+            <p>Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
+          </Col>
+          <Col xs={12} sm={12} md={3} lg={3}>
+            <p>Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
+          </Col>
+          <Col xs={12} sm={12} md={3} lg={3}>
+            <p>Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
           </Col>
         </Row>
         <Row className="about">
-          <Col md={12}>
-            <h2>About</h2>
+          <Col xs={12} sm={12} md={6} lg={6} className="aboutPic">
+
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={6} className="bio">
+            <h2>About Me</h2>
             <hr />
             <p>Welcome to my portfolio! My name is Evan. I am a fullstack
               developer from Minneapolis. I am currently enrolled at <a href="https://lambdaschool.com/" target="_blank" id="ls">Lambda School </a>
