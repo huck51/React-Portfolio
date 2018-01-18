@@ -20,13 +20,14 @@ class Contact extends Component {
               <Col md={12}>
                 <h3>Send me a message!</h3>
                 <p>Interested in hiring me? Wanna give me feedback on
-                  my portfolio? Just want to say "Hi"? Great! I would
+                  my portfolio? Suggest a project or feature to be built for my
+                  weekly Feature Friday release? Just want to say "Hi"? Great! I would
                   love to hear from you! To see more of my work check
                   my GitHub repository below.
                 </p>
               </Col>
             </Row>
-            <Row>
+            <Row className="buttonRow">
               <Col xs={12} sm={12} md={6} lg={3} className="noPadding">
                   <Button className="contactButtons resume"
                   target="_blank"
