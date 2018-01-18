@@ -156,13 +156,13 @@ li a:hover {
   margin: 0;
 }
 .slideOne {
-  bottom: 1.5em;
+  bottom: 1em;
   border-radius: 1em;
   padding-top: 2em;
   padding-bottom: 1em;
   font-size: 5em;
-  text-shadow: 1px 1px 2px black;
-  color: tan;
+  text-shadow: 3px 3px 1px black;
+  color: white;
 }
 .slideTwo {
   bottom: 2em;
@@ -170,6 +170,7 @@ li a:hover {
   border-radius: 1em;
   padding: 2em 3em 1em 3em;
   font-size: 4em;
+  text-shadow: 2px 2px 2px black;
 }
 .slideThree {
   bottom: 1em;
@@ -177,6 +178,7 @@ li a:hover {
   padding-top: 2em;
   padding-bottom: 1em;
   font-size: 5em;
+  text-shadow: 2px 2px 2px black;
 }
 .tabs {
   background-color: rgba(4, 184, 102, .97);
