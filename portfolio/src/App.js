@@ -35,7 +35,8 @@ class App extends Component {
               <i id="bigTree" className="fa fa-tree" aria-hidden="true"></i>
             </div>
             <h3>Responsive</h3>
-            <p className="blurb">I build responsive web apps that are accessable across all devices.</p>
+            <p className="blurb">I build responsive web apps that are accessable
+            across all devices.</p>
           </Col>
           <Col xs={12} sm={12} md={3} lg={3}>
             <div className="blurbIcon">
@@ -44,14 +45,18 @@ class App extends Component {
               <i id="users" className="fa fa-users" aria-hidden="true"></i>
             </div>
             <h3>Scalable</h3>
-            <p className="blurb">Each web application is designed with scalability in mind, allowing your web app to grow with your business.</p>
+            <p className="blurb">Each web application is designed with scalability
+            in mind, allowing your web app to grow with your business.</p>
           </Col>
           <Col xs={12} sm={12} md={3} lg={3}>
             <div className="blurbIcon">
               <i id="tech" className="fa fa-code" aria-hidden="true"></i>
             </div>
             <h3>Compatable</h3>
-            <p className="blurb">Integrating with trusted technology makes your web application more user friendly and increases brand exposure. I have a lot of experience integrating with brands like Google, Slack, Zoom, AirTable and Youtube to name a few.</p>
+            <p className="blurb">Integrating with trusted technology makes your
+            web application more user friendly and increases brand exposure. I
+            have a lot of experience integrating technology from companies like
+            Google, Slack, SendGrid, Zoom, AirTable and Youtube.</p>
           </Col>
           <Col xs={12} sm={12} md={3} lg={3}>
             <div className="blurbIcon">
