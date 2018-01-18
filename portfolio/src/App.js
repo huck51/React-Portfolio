@@ -9,20 +9,20 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="bckgrnd">
+      <div id="home" className="bckgrnd">
         <Nav bsStyle="pills" className="navFixTop">
           <Row className="noPadding">
             <Col xs={12} sm={12} md={3} className="tabs">
-          <NavItem href="#home">Home</NavItem>
+              <a href="#home"><NavItem href="#home">Home</NavItem></a>
             </Col>
             <Col xs={12} sm={12} md={3} className="tabs">
-          <NavItem href="#about">About</NavItem>
+              <a href="#about"><NavItem href="#about">About</NavItem></a>
             </Col>
             <Col xs={12} sm={12} md={3} className="tabs">
-          <NavItem href="#projects">Projects</NavItem>
+              <a href="#projects"><NavItem href="#projects">Projects</NavItem></a>
             </Col>
             <Col xs={12} sm={12} md={3} className="tabs">
-          <NavItem href="#contact">Contact</NavItem>
+              <a href="#contact"><NavItem href="#contact">Contact</NavItem></a>
             </Col>
           </Row>
         </Nav>
