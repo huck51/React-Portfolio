@@ -11,7 +11,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="projects">
+      <div className="projects" id="projects">
         <h2 className="projectHeader">Projects</h2>
         <hr className="projectHeader"/>
         <Row>
@@ -20,11 +20,11 @@ class Projects extends Component {
               src={jsPiano}
               href="https://huck51.github.io/Greenfield-Piano/"
               target="_blank"
-              className=""
+              className="thumb"
               responsive="true">
                 <hr />
                 <h4>JavaScript Piano</h4>
-                <p>A piano keyboard created using JavaScript and the Howler.js
+                <p id="description">A piano keyboard created using JavaScript and the Howler.js
                 library. The piano is played using the computer keyboard. When
                 a key is pressed the note is played and the corresponding key
                 lights up.</p>

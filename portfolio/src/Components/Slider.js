@@ -26,7 +26,7 @@ class Slider extends Component {
       <Carousel.Item animateIn animateOut>
         <Image width={900} height={500} alt="900x500" className="carImg" src={rockStream} />
         <Carousel.Caption className="slideThree">
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

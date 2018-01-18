@@ -19,10 +19,10 @@ class App extends Component {
           <NavItem href="#about">About</NavItem>
             </Col>
             <Col xs={12} sm={12} md={3} className="tabs">
-          <NavItem href="Projects">Projects</NavItem>
+          <NavItem href="#projects">Projects</NavItem>
             </Col>
             <Col xs={12} sm={12} md={3} className="tabs">
-          <NavItem href="Contact">Contact</NavItem>
+          <NavItem href="#contact">Contact</NavItem>
             </Col>
           </Row>
         </Nav>
@@ -61,7 +61,7 @@ class App extends Component {
             <p className="blurb">Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
           </Col>
         </Row>
-        <Row className="about">
+        <Row className="about" id="about">
           <Col xs={12} sm={12} md={6} lg={6} className="aboutPic">
 
           </Col>
