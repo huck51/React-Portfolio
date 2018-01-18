@@ -1,1 +1,1 @@
-var PROJECT_URL = 'https://cgekgoiiorqepla.form.io';
+const PROJECT_URL = 'https://rrnkfmjtcsqjzyv.form.io';

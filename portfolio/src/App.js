@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
 import { Nav, NavItem, Row, Col, Image } from 'react-bootstrap';
+// import {Formio} from 'react-formio';
 import Slider from './Components/Slider';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-import profPic from './Images/snipe.png';
-import sundown from './Images/sundown.jpg';
-import jump from './Images/jump.jpg';
-import chairlift from './Images/chairlift.jpg';
-import banner from './Images/linkedinbanner.jpeg';
 import './App.css';
 
 class App extends Component {
@@ -31,18 +27,38 @@ class App extends Component {
           </Row>
         </Nav>
         <Slider />
-        <Row className="intro">
+        <Row id="intro">
           <Col xs={12} sm={12} md={3} lg={3}>
-            <p>Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
+            <div className="blurbIcon">
+              <i id="smallTree" className="fa fa-tree" aria-hidden="true"></i>
+              <i id="arrowH" className="fa fa-arrows-h" aria-hidden="true"></i>
+              <i id="bigTree" className="fa fa-tree" aria-hidden="true"></i>
+            </div>
+            <h3>Responsive</h3>
+            <p className="blurb">Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
           </Col>
           <Col xs={12} sm={12} md={3} lg={3}>
-            <p>Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
+            <div className="blurbIcon">
+              <i id="user" className="fa fa-user" aria-hidden="true"></i>
+              <i id="arrowRight" className="fa fa-arrow-right" aria-hidden="true"></i>
+              <i id="users" className="fa fa-users" aria-hidden="true"></i>
+            </div>
+            <h3>Scalable</h3>
+            <p className="blurb">Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
           </Col>
           <Col xs={12} sm={12} md={3} lg={3}>
-            <p>Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
+            <div className="blurbIcon">
+              <i id="tech" className="fa fa-code" aria-hidden="true"></i>
+            </div>
+            <h3>Compatable</h3>
+            <p className="blurb">Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
           </Col>
           <Col xs={12} sm={12} md={3} lg={3}>
-            <p>Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
+            <div className="blurbIcon">
+              <i id="noPuzzles" className="fa fa-puzzle-piece" aria-hidden="true"></i>
+            </div>
+            <h3>Design</h3>
+            <p className="blurb">Each of my designs begins with a blank canvas which allows your content to guide the layout.</p>
           </Col>
         </Row>
         <Row className="about">

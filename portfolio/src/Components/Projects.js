@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import {Image, Row, Col, Thumbnail } from 'react-bootstrap';
+import { Row, Col, Thumbnail } from 'react-bootstrap';
 import jsPiano from '../Images/jspiano.png';
 import campground from '../Images/CG.png';
 import bricks from '../Images/bricks.jpeg';

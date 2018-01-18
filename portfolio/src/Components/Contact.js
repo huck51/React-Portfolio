@@ -1,6 +1,7 @@
 
-import React, {Component} from 'react';
-import {Row, Col, FormGroup, ControlLabel, FormControl, Button, ButtonGroup } from 'react-bootstrap';
+import React, { Component } from 'react';
+// import { Formio } from 'react-formio';
+import {Row, Col, FormGroup, ControlLabel, FormControl, Button } from 'react-bootstrap';
 import '../App.css';
 
 class Contact extends Component {
@@ -12,27 +13,7 @@ class Contact extends Component {
         <hr />
         <Row>
           <Col xs={12} sm={12} md={6}>
-            <FormGroup>
-              <ControlLabel>Name:</ControlLabel>
-              <FormControl type="text" placeholder="Ex: John Doe">
-              </FormControl>
-            </FormGroup>
-            <FormGroup>
-              <ControlLabel>Email:</ControlLabel>
-              <FormControl type="email" placeholder="Ex: johndoe@company.com">
-              </FormControl>
-            </FormGroup>
-            <FormGroup>
-              <ControlLabel>Phone (optional):</ControlLabel>
-              <FormControl type="text" placeholder="Ex: ###-###-####">
-              </FormControl>
-            </FormGroup>
-            <FormGroup>
-              <ControlLabel>Message:</ControlLabel>
-              <FormControl componentClass="textarea" placeholder="Your message here...">
-              </FormControl>
-            </FormGroup>
-            <Button type="submit">Submit</Button>
+            <div id="formio"></div>
           </Col>
           <Col md={6}>
             <Row>
@@ -47,7 +28,7 @@ class Contact extends Component {
             </Row>
             <Row>
               <Col xs={12} sm={12} md={6} lg={3} className="noPadding">
-                  <Button className="contactButtons"
+                  <Button className="contactButtons resume"
                   target="_blank"
                   href="https://resume.creddle.io/resume/7cix8cvqexc"
                   ><i className="fa fa-file-text-o" aria-hidden="true"></i> Resume</Button>
