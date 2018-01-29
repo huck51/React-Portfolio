@@ -50,6 +50,10 @@ li a:hover {
   text-align: center;
   font-size: 1.25em;
 }
+.blurbSpace {
+  padding-bottom: 5em;
+  margin-bottom: 2em;
+}
 .blurbIcon {
   border-radius: 50%;
   height: 3em;
@@ -151,28 +155,23 @@ li a:hover {
 .read-more-state {
   display: none;
 }
-
 .read-more-target {
   opacity: 0;
   max-height: 0;
   font-size: 0;
   transition: .25s ease;
 }
-
 .read-more-state:checked ~ .read-more-wrap .read-more-target {
   opacity: 1;
   font-size: inherit;
   max-height: 999em;
 }
-
 .read-more-state ~ .read-more-trigger:before {
   content: 'Show Description';
 }
-
 .read-more-state:checked ~ .read-more-trigger:before {
   content: 'Hide Description';
 }
-
 .read-more-trigger {
   cursor: pointer;
   display: inline-block;
@@ -240,12 +239,6 @@ li a:hover {
 .thumbnail>img {
   height: 20em;
 }
-.thumbnail>div>p {
-
-}
-.thumbnail:hover>div>p {
-  display: contents;
-}
 #arrowH {
   padding-top: .5em;
   color: black;
@@ -260,8 +253,11 @@ li a:hover {
   padding-top: .5em;
   font-size: 4em;
 }
+#buttonRowSpacer {
+  margin-bottom: 4em;
+}
 #intro {
-  padding: 8em 3em;
+  padding: 7em 3em;
 }
 #noPuzzles {
   padding: .35em 0 0 .25em;

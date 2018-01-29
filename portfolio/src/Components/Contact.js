@@ -19,7 +19,7 @@ class Contact extends Component {
             <Row>
               <Col md={12}>
                 <h3>Send me a message!</h3>
-                <p>Interested in hiring me? Wanna give me feedback on
+                <p id="buttonRowSpacer">Interested in hiring me? Wanna give me feedback on
                   my portfolio? Suggest a project or feature to be built for my
                   weekly Feature Friday release? Just want to say "Hi"? Great! I would
                   love to hear from you! To see more of my work check
@@ -27,7 +27,7 @@ class Contact extends Component {
                 </p>
               </Col>
             </Row>
-            <Row className="buttonRow">
+            <Row>
               <Col xs={12} sm={12} md={6} lg={3} className="noPadding">
                   <Button className="contactButtons resume"
                   target="_blank"

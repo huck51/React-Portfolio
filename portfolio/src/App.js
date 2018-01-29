@@ -28,7 +28,7 @@ class App extends Component {
         </Nav>
         <Slider />
         <Row id="intro">
-          <Col xs={12} sm={12} md={3} lg={3}>
+          <Col xs={12} sm={12} md={3} lg={3} className="blurbSpace">
             <div className="blurbIcon">
               <i id="smallTree" className="fa fa-tree" aria-hidden="true"></i>
               <i id="arrowH" className="fa fa-arrows-h" aria-hidden="true"></i>
@@ -38,7 +38,7 @@ class App extends Component {
             <p className="blurb">I build responsive web apps that are accessable
             across all devices.</p>
           </Col>
-          <Col xs={12} sm={12} md={3} lg={3}>
+          <Col xs={12} sm={12} md={3} lg={3} className="blurbSpace">
             <div className="blurbIcon">
               <i id="user" className="fa fa-user" aria-hidden="true"></i>
               <i id="arrowRight" className="fa fa-arrow-right" aria-hidden="true"></i>
@@ -48,7 +48,7 @@ class App extends Component {
             <p className="blurb">Each web application is designed with scalability
             in mind, allowing your web app to grow with your business.</p>
           </Col>
-          <Col xs={12} sm={12} md={3} lg={3}>
+          <Col xs={12} sm={12} md={3} lg={3} className="blurbSpace">
             <div className="blurbIcon">
               <i id="tech" className="fa fa-code" aria-hidden="true"></i>
             </div>
@@ -58,7 +58,7 @@ class App extends Component {
             have a lot of experience integrating technology from companies like
             Google, Slack, SendGrid, Zoom, AirTable and Youtube.</p>
           </Col>
-          <Col xs={12} sm={12} md={3} lg={3}>
+          <Col xs={12} sm={12} md={3} lg={3} className="blurbSpace">
             <div className="blurbIcon">
               <i id="noPuzzles" className="fa fa-puzzle-piece" aria-hidden="true"></i>
             </div>
