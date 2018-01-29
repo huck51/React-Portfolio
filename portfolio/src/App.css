@@ -12,6 +12,9 @@ h3 {
 hr {
   margin: 0 0 1em 0;
 }
+li {
+  padding: 1em;
+}
 li a {
   color: white;
   font-size: 1.15em;
@@ -40,8 +43,12 @@ li a:hover {
   width: 100%;
   padding: 0em;
 }
+.bio {
+  padding: 2em 1em;
+}
 .blurb {
   text-align: center;
+  font-size: 1.25em;
 }
 .blurbIcon {
   border-radius: 50%;
@@ -68,7 +75,7 @@ li a:hover {
 .contact {
   background-color: rgba(210,180,140, .35);
   color: white;
-  padding: 1em;
+  padding: 3em 1em;
   margin: 0;
   text-shadow: 1px 1px 2px black;
   font-size: 1.25em;
@@ -130,7 +137,7 @@ li a:hover {
   margin-right: 0;
 }
 .projects {
-  padding: 1em 1em 3em 1em;
+  padding: 3em 1em;
   background-color: rgba(4, 184, 102, .97);
   margin-bottom: 0;
 }
@@ -140,6 +147,41 @@ li a:hover {
 }
 .proPicBox {
   z-index: 9000;
+}
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show Description';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Hide Description';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
 }
 .resume {
   background-color: purple;
@@ -185,7 +227,7 @@ li a:hover {
   color: white;
   text-align: center;
   margin: 0;
-  padding: 1em;
+  padding: 0;
   z-index: 1000;
 }
 .tabs:hover {
@@ -199,7 +241,7 @@ li a:hover {
   height: 20em;
 }
 .thumbnail>div>p {
-  display: none;
+
 }
 .thumbnail:hover>div>p {
   display: contents;
@@ -217,6 +259,9 @@ li a:hover {
 #bigTree {
   padding-top: .5em;
   font-size: 4em;
+}
+#intro {
+  padding: 8em 3em;
 }
 #noPuzzles {
   padding: .35em 0 0 .25em;

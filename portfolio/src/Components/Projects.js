@@ -24,10 +24,12 @@ class Projects extends Component {
               responsive="true">
                 <hr />
                 <h4>JavaScript Piano</h4>
-                <p id="description">A piano keyboard created using JavaScript and the Howler.js
+                <input type="checkbox" class="read-more-state" id="post-1" />
+                <label for="post-1" class="read-more-trigger"></label>
+                <p id="description" class="read-more-wrap"><span class="read-more-target">A piano keyboard created using JavaScript and the Howler.js
                 library. The piano is played using the computer keyboard. When
                 a key is pressed the note is played and the corresponding key
-                lights up.</p>
+                lights up.</span></p>
             </Thumbnail>
           </Col>
           <Col xs={12} sm={12} md={6}>
@@ -39,11 +41,13 @@ class Projects extends Component {
               responsive="true">
                 <hr />
                 <h4>Campfire Stories</h4>
-                <p>Campfire Stories is a review site dedicated to reviewing
+                <input type="checkbox" class="read-more-state" id="post-2" />
+                <label for="post-2" class="read-more-trigger"></label>
+                <p class="read-more-wrap"><span class="read-more-target">Campfire Stories is a review site dedicated to reviewing
                 campgrounds, hiking trails, and national parks. It is inspired
                 by Yelp and built using Node.js, Express.js, MongoDB, and
                 Embedded JavaScript. Additionally, Campfire Stories uses
-                Passport.js to authorize users.</p>
+                Passport.js to authorize users.</span></p>
             </Thumbnail>
           </Col>
         </Row>
@@ -57,8 +61,10 @@ class Projects extends Component {
               responsive="true">
                 <hr />
                 <h4>Arc_Hive</h4>
-                <p>Arc_Hive is an educational tool intended for use at Lambda
-                  School that automates the instructor's lengthy process of
+                <input type="checkbox" class="read-more-state" id="post-3" />
+                <label for="post-3" class="read-more-trigger"></label>
+                <p class="read-more-wrap"><span class="read-more-target">Arc_Hive is an educational tool intended for use at Lambda
+                  School that automates the instructors lengthy process of
                   creating a Zoom lecture, sharing the access link in Slack,
                   converting the recorded video file type, uploading the video
                   to YouTube, sharing the YouTube link with students in Slack,
@@ -75,18 +81,20 @@ class Projects extends Component {
                   search parameters are then returned to the student in Slack
                   via a direct message.  Arc_Hive was built using Node.js and
                   Express.js. It utilizes the Slack API, Zoom API,
-                  Google/YouTube API,  and the AirTable API.</p>
+                  Google/YouTube API,  and the AirTable API.</span></p>
             </Thumbnail>
           </Col>
           <Col xs={12} sm={12} md={6}>
             <Thumbnail
               src={bricks}
-              href="#"
-              className="proBox"
+              href="#projects"
+              className=""
               responsive="true">
                 <hr />
                 <h4>Coming Soon!</h4>
-                <p>Description</p>
+                <input type="checkbox" class="read-more-state" id="post-4" />
+                <label for="post-4" class="read-more-trigger"></label>
+                <p class="read-more-wrap"><span class="read-more-target">Check back soon!</span></p>
             </Thumbnail>
           </Col>
         </Row>
