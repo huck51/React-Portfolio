@@ -9,6 +9,10 @@ h2 {
 h3 {
   text-align: center;
 }
+h4 {
+  color: rgba(4, 184, 102, 1.0);
+
+}
 hr {
   margin: 0 0 1em 0;
 }
@@ -25,7 +29,7 @@ li a:hover {
 }
 .about {
   margin-top: 5em;
-  background-color: rgba(210,180,140, .35);
+  background-color: rgba(108,174,117, .97);
   color: white;
   font-size: 1.65em;
   padding: 1em 3em;
@@ -77,7 +81,7 @@ li a:hover {
   width: 100%;
 }
 .contact {
-  background-color: rgba(210,180,140, .35);
+  background-color: rgba(108,174,117, .97);
   color: white;
   padding: 3em 1em;
   margin: 0;
@@ -104,12 +108,6 @@ li a:hover {
 .gitHub:hover {
   border-color: black;
 }
-#intro {
-  background-color: white;
-  color: rgba(4, 184, 102, 1);
-  height: 100%;
-  padding: 3em 0;
-}
 .linkedIn {
   background-color: rgba(0, 96, 151, 1.0);
   color: white;
@@ -132,18 +130,21 @@ li a:hover {
   min-width: 100%;
 }
 .projectHeader {
-  color: tan;
+  color: rgba(4, 184, 102, 1.0);
   border: none;
   border-bottom: 1px solid;
-  border-bottom-color: tan;
-  box-shadow: 0px 2px 2px -1px black;
-  text-shadow: 1px 1px 2px black;
+  border-bottom-color: rgba(4, 184, 102, 1.0);
   margin-right: 0;
 }
+/*
+box-shadow: 0px 2px 2px -1px black;
+text-shadow: 1px 1px 2px black;
+*/
 .projects {
   padding: 3em 1em;
-  background-color: rgba(4, 184, 102, .97);
+  background-color: #718F94;
   margin-bottom: 0;
+  opacity: 1;
 }
 .proPic {
   border: solid .5em white;
@@ -222,7 +223,7 @@ li a:hover {
   text-shadow: 2px 2px 2px black;
 }
 .tabs {
-  background-color: rgba(4, 184, 102, .97);
+  background-color: rgba(108, 174, 117, .97);
   color: white;
   text-align: center;
   margin: 0;
@@ -231,13 +232,49 @@ li a:hover {
 }
 .tabs:hover {
   background-color: white;
-  color: rgba(4, 184, 102, 1.0);
+  color: rgba(108, 174, 117, 1.0);
 }
 .tabs:hover a {
-  color: rgba(4, 184, 102, 1.0);
+  color: rgba(108, 174, 117, 1.0);
+}
+a.thumbnail {
+  text-decoration: none;
+  border: solid 3px rgba(4, 184, 102, 1.0);
+}
+a.thumbnail:hover {
+  text-decoration: none;
+  border: solid 3px rgba(4, 184, 102, 1.0);
+}
+a.thumbnail:active {
+  text-decoration: none;
+  border: solid 3px rgba(4, 184, 102, 1.0);
+}
+a.thumbnail:focus {
+  text-decoration: none;
+  border: solid 3px rgba(4, 184, 102, 1.0);
+}
+.thumbnail {
+  border: solid 3px rgba(4, 184, 102, 1.0);
+  color: rgba(108,174,117, .97);
+  text-decoration: none;
+}
+.thumbnail::after {
+  text-decoration: none;
+  border: solid 3px rgba(4, 184, 102, 1.0);
+}
+.thumbnail:active {
+  text-decoration: none;
+  border: solid 3px rgba(4, 184, 102, 1.0);
+}
+.thumbnail:hover {
+  text-decoration: none;
+  border: solid 3px rgba(4, 184, 102, 1.0);
 }
 .thumbnail>img {
   height: 20em;
+}
+.thumbnailHr {
+  border-color: rgba(4, 184, 102, 1.0);
 }
 #arrowH {
   padding-top: .5em;
@@ -258,6 +295,10 @@ li a:hover {
 }
 #intro {
   padding: 7em 3em;
+  background-color: white;
+  color: rgba(4, 184, 102, 1);
+  height: 100%;
+  opacity: 1;
 }
 #noPuzzles {
   padding: .35em 0 0 .25em;

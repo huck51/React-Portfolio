@@ -9,7 +9,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div id="home" className="bckgrnd">
+      <div id="home" className="">
         <Nav bsStyle="pills" className="navFixTop">
           <Row className="noPadding">
             <Col xs={3} sm={3} md={3} className="tabs">

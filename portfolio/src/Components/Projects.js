@@ -22,7 +22,7 @@ class Projects extends Component {
               target="_blank"
               className="thumb"
               responsive="true">
-                <hr />
+                <hr className="thumbnailHr"/>
                 <h4>JavaScript Piano</h4>
                 <input type="checkbox" class="read-more-state" id="post-1" />
                 <label for="post-1" class="read-more-trigger"></label>
@@ -39,7 +39,7 @@ class Projects extends Component {
               target="_blank"
               className=""
               responsive="true">
-                <hr />
+                <hr className="thumbnailHr"/>
                 <h4>Campfire Stories</h4>
                 <input type="checkbox" class="read-more-state" id="post-2" />
                 <label for="post-2" class="read-more-trigger"></label>
@@ -59,7 +59,7 @@ class Projects extends Component {
               target="_blank"
               className=""
               responsive="true">
-                <hr />
+                <hr className="thumbnailHr"/>
                 <h4>Arc_Hive</h4>
                 <input type="checkbox" class="read-more-state" id="post-3" />
                 <label for="post-3" class="read-more-trigger"></label>
@@ -90,8 +90,8 @@ class Projects extends Component {
               href="#projects"
               className=""
               responsive="true">
-                <hr />
-                <h4>Coming Soon!</h4>
+                <hr className="thumbnailHr"/>
+                <h4>Wander Outdoor Mobile App - Coming Soon!</h4>
                 <input type="checkbox" class="read-more-state" id="post-4" />
                 <label for="post-4" class="read-more-trigger"></label>
                 <p class="read-more-wrap"><span class="read-more-target">Check back soon!</span></p>
