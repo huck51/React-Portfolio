@@ -142,7 +142,7 @@ text-shadow: 1px 1px 2px black;
 */
 .projects {
   padding: 3em 1em;
-  background-color: #718F94;
+  background-color: rgba(0,0,0,0.85);
   margin-bottom: 0;
   opacity: 1;
 }
