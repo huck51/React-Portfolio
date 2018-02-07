@@ -73,14 +73,14 @@ class App extends Component {
           <Col xs={12} sm={12} md={6} lg={6} className="bio">
             <h2>About Me</h2>
             <hr />
-            <p>Welcome to my portfolio! My name is Evan. I am a fullstack
-              developer from Minneapolis. I am currently enrolled at <a href="https://lambdaschool.com/" target="_blank" id="ls">Lambda School </a>
-              where I am learning full-stack development using React and React Native.
-              We have also spent quite a bit of time at LambdaU exploring some of the deeper
-              concepts in computer science like the Traveling Salesman Problem and the
-              Dining Philosophers problem. In additon, we have spent time working in C
-              and python. When I am not coding, I enjoy hiking, mountain biking, playing
-              hockey, and building/riding wakesurf boards.
+            <p>Welcome to my portfolio! My name is Evan Allen. I am a full stack
+              JavaScript developer with a passion for building and working with API's.
+              While I have a preference towards writing slick back-end code using
+              Node.js, that doesn't mean I don't also enjoy writing responsive
+              front-end code using React/React Native and Redux. Though I specialize
+              in the MERN stack, my skills don't end there. I have also dabbled
+              in C, Python, and mySQL. When I am not coding, I enjoy hiking,
+              mountain biking, playing hockey, and building/riding wakesurf boards.
               <br />
               <br />
               Please feel free to explore my page and check out some of my projects.

@@ -19,12 +19,21 @@ class Contact extends Component {
             <Row>
               <Col md={12}>
                 <h3>Send me a message!</h3>
-                <p id="buttonRowSpacer">Interested in hiring me? Wanna give me feedback on
+                <p>" 'I don't know who you are. I don't know what you want. If you
+                are looking for a full stack developer, I am available for hire.
+                I have a very particular set of skills. Skills that I have acquired
+                over a very long career. Skills that make me the perfect candidate
+                for people like you. If you hire me now that will be the end of it.
+                But if you don't, I will look for you, I will apply at your company,
+                and I will do amazing work for you.'</p>
+                <p><a href="https://www.youtube.com/watch?v=jZOywn1qArI" target="_blank">-Liam Neeson, 2008</a> "</p>
+                <p>-Evan Allen (paraphrasing)</p>
+                {/*<p id="buttonRowSpacer">Interested in hiring me? Wanna give me feedback on
                   my portfolio? Suggest a project or feature to be built for my
                   weekly Feature Friday release? Just want to say "Hi"? Great! I would
                   love to hear from you! To see more of my work check
                   my GitHub repository below.
-                </p>
+                </p>*/}
               </Col>
             </Row>
             <Row>

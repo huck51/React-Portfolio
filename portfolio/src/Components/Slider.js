@@ -17,7 +17,8 @@ class Slider extends Component {
           {/*<Image width={900} height={500} alt="900x500" className="carImg" src={fogForest} />*/}
           <Carousel.Caption className="slideOne">
             <div className="container-fluid">
-              <p>Hi, my name is Evan Allen. Welcome to my portfolio!</p>
+              <h1>Hi, Im Evan.</h1>
+              <p>Part hockey fan. Part outdoorsman. Full Stack Developer.</p>
             </div>
           </Carousel.Caption>
       </Carousel.Item>
@@ -27,7 +28,7 @@ class Slider extends Component {
         {/*<Image width={900} height={500} alt="900x500" className="carImg" src={stones} />*/}
         <Carousel.Caption className="slideTwo">
           <div className="container-fluid">
-            <p>I build vivid, full stack web apps that scale to meet your growing business needs.</p>
+            <p>I like to build cool things that have an impact on the world</p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -37,7 +38,8 @@ class Slider extends Component {
         {/*<Image width={900} height={500} alt="900x500" className="carImg" src={rockStream} />*/}
         <Carousel.Caption className="slideThree">
           <div className="container-fluid">
-            <p>I release either a new project or new feature to an existing project every week!</p>
+            <h1>I soak up knowledge like a sponge.</h1>
+            <p>I love learning new languages, tools, and technologies!</p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
