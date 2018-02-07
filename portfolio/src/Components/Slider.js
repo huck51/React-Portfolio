@@ -22,13 +22,17 @@ class Slider extends Component {
       <Carousel.Item animateIn animateOut>
         <Image width={900} height={500} alt="900x500" className="carImg" src={stones} />
         <Carousel.Caption className="slideTwo">
-          <p>I build vivid, full stack web apps that scale to meet your growing business needs.</p>
+          <div className="container-fluid">
+            <p>I build vivid, full stack web apps that scale to meet your growing business needs.</p>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item animateIn animateOut>
         <Image width={900} height={500} alt="900x500" className="carImg" src={rockStream} />
         <Carousel.Caption className="slideThree">
-          <p>I release either a new project or new feature to an existing project every week!</p>
+          <div className="container-fluid">
+            <p>I release either a new project or new feature to an existing project every week!</p>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
