@@ -207,11 +207,11 @@ text-shadow: 1px 1px 2px black;
   margin: 0;
 }
 .slideOne {
-  bottom: 5em;
+  bottom: 2em;
   border-radius: 1em;
   padding-top: 2em;
   padding-bottom: 1em;
-  font-size: 3em;
+  font-size: 6vw;
   text-shadow: 3px 3px 1px black;
   color: white;
   text-align: center;
