@@ -80,6 +80,9 @@ li a:hover {
   max-height: 45em;
   width: 100%;
 }
+.carousel-inner {
+  height: 50em;
+}
 .contact {
   background-color: rgba(108,174,117, .97);
   color: white;
@@ -110,6 +113,9 @@ li a:hover {
 }
 .gitHub:hover {
   border-color: black;
+}
+.item {
+  height: 100%;
 }
 .linkedIn {
   background-color: rgba(0, 96, 151, 1.0);
@@ -325,4 +331,31 @@ a.thumbnail:focus {
 #users {
   padding-top: 1em;
   font-size: 3em;
+}
+#test1 {
+  background-image: url('./Images/nature-forest-trees-fog.jpeg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#test2 {
+  background-image: url('./Images/stackofstones.jpeg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#test3 {
+  background-image: url('./Images/rockStream.jpg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }

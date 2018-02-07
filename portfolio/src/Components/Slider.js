@@ -12,7 +12,9 @@ class Slider extends Component {
     return (
       <Carousel className="carousel-fade container-fluid">
         <Carousel.Item animateIn animateOut>
-          <Image width={900} height={500} alt="900x500" className="carImg" src={fogForest} />
+          <div id="test1">
+          </div>
+          {/*<Image width={900} height={500} alt="900x500" className="carImg" src={fogForest} />*/}
           <Carousel.Caption className="slideOne">
             <div className="container-fluid">
               <p>Hi, my name is Evan Allen. Welcome to my portfolio!</p>
@@ -20,7 +22,9 @@ class Slider extends Component {
           </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item animateIn animateOut>
-        <Image width={900} height={500} alt="900x500" className="carImg" src={stones} />
+        <div id="test2">
+        </div>
+        {/*<Image width={900} height={500} alt="900x500" className="carImg" src={stones} />*/}
         <Carousel.Caption className="slideTwo">
           <div className="container-fluid">
             <p>I build vivid, full stack web apps that scale to meet your growing business needs.</p>
@@ -28,7 +32,9 @@ class Slider extends Component {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item animateIn animateOut>
-        <Image width={900} height={500} alt="900x500" className="carImg" src={rockStream} />
+        <div id="test3">
+        </div>
+        {/*<Image width={900} height={500} alt="900x500" className="carImg" src={rockStream} />*/}
         <Carousel.Caption className="slideThree">
           <div className="container-fluid">
             <p>I release either a new project or new feature to an existing project every week!</p>
