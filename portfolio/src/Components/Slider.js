@@ -10,7 +10,7 @@ class Slider extends Component {
 
   render() {
     return (
-      <Carousel className="carousel-fade">
+      <Carousel className="carousel-fade container-fluid">
         <Carousel.Item animateIn animateOut>
           <Image width={900} height={500} alt="900x500" className="carImg" src={fogForest} />
           <Carousel.Caption className="slideOne">
@@ -26,7 +26,7 @@ class Slider extends Component {
       <Carousel.Item animateIn animateOut>
         <Image width={900} height={500} alt="900x500" className="carImg" src={rockStream} />
         <Carousel.Caption className="slideThree">
-          <p>I release either a new project or new feature to an existing project every Friday!</p>
+          <p>I release either a new project or new feature to an existing project every week!</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -76,8 +76,7 @@ li a:hover {
   z-index: 2000;
 }
 .carImg {
-  min-height: 50em;
-  max-height: 50em;
+  height: auto;
   width: 100%;
 }
 .contact {
@@ -91,6 +90,9 @@ li a:hover {
 .contactButtons {
   width: 100%;
   padding: .5em 0;
+}
+.container-fluid {
+  padding: 0;
 }
 .fcc {
   background-color: darkgreen;
@@ -202,7 +204,7 @@ text-shadow: 1px 1px 2px black;
   border-radius: 1em;
   padding-top: 2em;
   padding-bottom: 1em;
-  font-size: 5em;
+  font-size: 4em;
   text-shadow: 3px 3px 1px black;
   color: white;
 }
