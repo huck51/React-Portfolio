@@ -207,7 +207,7 @@ text-shadow: 1px 1px 2px black;
   margin: 0;
 }
 .slideOne {
-  bottom: 1em;
+  bottom: 5em;
   border-radius: 1em;
   padding-top: 2em;
   padding-bottom: 1em;
@@ -215,24 +215,26 @@ text-shadow: 1px 1px 2px black;
   text-shadow: 3px 3px 1px black;
   color: white;
   text-align: center;
+  line-height: normal;
 }
 .slideTwo {
-  bottom: 2em;
-  right: 1em;
+  bottom: 4em;
   border-radius: 1em;
   padding: 2em 3em 1em 3em;
   font-size: 3em;
   text-shadow: 2px 2px 2px black;
   text-align: left;
+  line-height: normal;
 }
 .slideThree {
-  bottom: 1em;
+  bottom: 4em;
   border-radius: 1em;
   padding-top: 2em;
   padding-bottom: 1em;
   font-size: 3em;
   text-shadow: 2px 2px 2px black;
   text-align: center;
+  line-height: normal;
 }
 .tabs {
   background-color: rgba(108, 174, 117, .97);
