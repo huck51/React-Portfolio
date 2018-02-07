@@ -76,7 +76,8 @@ li a:hover {
   z-index: 2000;
 }
 .carImg {
-  height: auto;
+  min-height: 45em;
+  max-height: 45em;
   width: 100%;
 }
 .contact {
@@ -204,25 +205,28 @@ text-shadow: 1px 1px 2px black;
   border-radius: 1em;
   padding-top: 2em;
   padding-bottom: 1em;
-  font-size: 4em;
+  font-size: 3em;
   text-shadow: 3px 3px 1px black;
   color: white;
+  text-align: center;
 }
 .slideTwo {
   bottom: 2em;
   right: 1em;
   border-radius: 1em;
   padding: 2em 3em 1em 3em;
-  font-size: 4em;
+  font-size: 3em;
   text-shadow: 2px 2px 2px black;
+  text-align: left;
 }
 .slideThree {
   bottom: 1em;
   border-radius: 1em;
   padding-top: 2em;
   padding-bottom: 1em;
-  font-size: 5em;
+  font-size: 3em;
   text-shadow: 2px 2px 2px black;
+  text-align: center;
 }
 .tabs {
   background-color: rgba(108, 174, 117, .97);

@@ -14,7 +14,9 @@ class Slider extends Component {
         <Carousel.Item animateIn animateOut>
           <Image width={900} height={500} alt="900x500" className="carImg" src={fogForest} />
           <Carousel.Caption className="slideOne">
-            <p>Hi, my name is Evan Allen. Welcome to my portfolio!</p>
+            <div className="container-fluid">
+              <p>Hi, my name is Evan Allen. Welcome to my portfolio!</p>
+            </div>
           </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item animateIn animateOut>
