@@ -15,10 +15,10 @@ class Slider extends Component {
           <div id="test1">
           </div>
           {/*<Image width={900} height={500} alt="900x500" className="carImg" src={fogForest} />*/}
-          <Carousel.Caption className="slideOne">
+          <Carousel.Caption className="slideOne jumbotron">
             <div className="container-fluid">
-              <h1>Hi, Im Evan.</h1>
-              <p>Part hockey fan. Part outdoorsman. Full Stack Developer.</p>
+              <h1 id="first">Hi, Im Evan. Part hockey fan. Part outdoorsman. Full Stack Developer.</h1>
+              <p></p>
             </div>
           </Carousel.Caption>
       </Carousel.Item>
@@ -26,9 +26,9 @@ class Slider extends Component {
         <div id="test2">
         </div>
         {/*<Image width={900} height={500} alt="900x500" className="carImg" src={stones} />*/}
-        <Carousel.Caption className="slideTwo">
+        <Carousel.Caption className="slideTwo jumbotron">
           <div className="container-fluid">
-            <p>I like to build cool things that have an impact on the world</p>
+            <h1 id="second">I like to build cool things that have an impact on the world</h1>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -36,10 +36,10 @@ class Slider extends Component {
         <div id="test3">
         </div>
         {/*<Image width={900} height={500} alt="900x500" className="carImg" src={rockStream} />*/}
-        <Carousel.Caption className="slideThree">
+        <Carousel.Caption className="slideThree jumbotron">
           <div className="container-fluid">
-            <h1>I soak up knowledge like a sponge.</h1>
-            <p>I love learning new languages, tools, and technologies!</p>
+            <h1 id="third">I soak up knowledge like a sponge. I love learning new languages, tools, and technologies!</h1>
+            <p></p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

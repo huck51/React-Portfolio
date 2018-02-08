@@ -81,7 +81,7 @@ li a:hover {
   width: 100%;
 }
 .carousel-inner {
-  height: 50em;
+  height: 100vh;
 }
 .contact {
   background-color: rgba(108,174,117, .97);
@@ -116,6 +116,22 @@ li a:hover {
 }
 .item {
   height: 100vh;
+}
+.jumbotron {
+  background-color: transparent;
+  margin: 0;
+}
+.jumbotron>#first {
+  font-size: 1.15em;
+  margin: 0;
+}
+.jumbotron>#second {
+  font-size: 1.15em;
+  margin: 0;
+}
+.jumbotron>#third {
+  font-size: 1.15em;
+  margin: 0;
 }
 .linkedIn {
   background-color: rgba(0, 96, 151, 1.0);
