@@ -380,6 +380,8 @@ a.thumbnail:focus {
 }
 .carousel-fade .carousel-inner .item {
   -webkit-transition-property: opacity;
+  -moz-transition: opacity;
+  -o-transition: opacity;
   transition-property: opacity;
 }
 .carousel-fade .carousel-inner .item,
@@ -398,5 +400,7 @@ a.thumbnail:focus {
 .carousel-fade .carousel-inner .active.right {
   left: 0;
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  -moz-transition: translate3d(0, 0, 0);
+  -o-transition: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
