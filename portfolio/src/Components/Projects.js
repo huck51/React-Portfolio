@@ -20,6 +20,7 @@ class Projects extends Component {
               src={jsPiano}
               href="https://huck51.github.io/Greenfield-Piano/"
               target="_blank"
+              rel="noopener noreferrer"
               className="thumb"
               responsive="true">
                 <hr className="thumbnailHr"/>
@@ -37,6 +38,7 @@ class Projects extends Component {
               src={campground}
               href="https://campfire-stories.herokuapp.com/"
               target="_blank"
+              rel="noopener noreferrer"
               className=""
               responsive="true">
                 <hr className="thumbnailHr"/>
@@ -57,6 +59,7 @@ class Projects extends Component {
               src={arc_hive}
               href="https://github.com/cs1Capstone/arc_hive"
               target="_blank"
+              rel="noopener noreferrer"
               className=""
               responsive="true">
                 <hr className="thumbnailHr"/>

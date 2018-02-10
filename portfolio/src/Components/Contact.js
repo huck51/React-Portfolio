@@ -26,7 +26,7 @@ class Contact extends Component {
                 for people like you. If you hire me now that will be the end of it.
                 But if you don't, I will look for you, I will apply at your company,
                 and I will do amazing work for you.'</p>
-                <p><a href="https://www.youtube.com/watch?v=jZOywn1qArI" target="_blank">-Liam Neeson, 2008</a> "</p>
+                <p><a href="https://www.youtube.com/watch?v=jZOywn1qArI" target="_blank" rel="noopener noreferrer">-Liam Neeson, 2008</a> "</p>
                 <p>-Evan Allen (paraphrasing)</p>
                 {/*<p id="buttonRowSpacer">Interested in hiring me? Wanna give me feedback on
                   my portfolio? Suggest a project or feature to be built for my
@@ -40,24 +40,28 @@ class Contact extends Component {
               <Col xs={12} sm={12} md={6} lg={3} className="noPadding">
                   <Button className="contactButtons resume"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://resume.creddle.io/resume/7cix8cvqexc"
                   ><i className="fa fa-file-text-o" aria-hidden="true"></i> Resume</Button>
               </Col>
               <Col xs={12} sm={12} md={6} lg={3} className="noPadding">
                   <Button className="contactButtons gitHub"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/huck51"
                   ><i className="fa fa-github" aria-hidden="true"></i> GitHub</Button>
               </Col>
               <Col xs={12} sm={12} md={6} lg={3} className="noPadding">
                   <Button className="contactButtons linkedIn"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/evan-allen-1b533864/"
                   ><i className="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</Button>
               </Col>
               <Col xs={12} sm={12} md={6} lg={3} className="noPadding">
                   <Button className="contactButtons fcc"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.freecodecamp.org/huck51"
                   ><i className="fa fa-free-code-camp" aria-hidden="true"></i> FreeCodeCamp</Button>
               </Col>
