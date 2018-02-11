@@ -154,6 +154,11 @@ li a:hover {
   padding-left: 0;
   padding-right: 0;
 }
+.opac {
+  background-color: rgba(200, 200, 200, .6);
+  height: 100%;
+  width: 100%;
+}
 .proBox>img {
   min-width: 100%;
 }
@@ -234,10 +239,12 @@ text-shadow: 1px 1px 2px black;
   padding-top: 2em;
   padding-bottom: 1em;
   font-size: 3em;
-  text-shadow: 2px 2px 2px black;
-  color: white;
+  /*text-shadow: 2px 2px 2px black;*/
+  color: transparent;
   text-align: center;
   line-height: normal;
+  opacity: 1;
+  background-color: transparent;
 }
 .slideTwo {
   top: 10vh;
@@ -258,6 +265,13 @@ text-shadow: 1px 1px 2px black;
   text-shadow: 2px 2px 2px black;
   text-align: center;
   line-height: normal;
+}
+.spacer {
+  margin-top: 1em;
+  color: rgb(4, 184, 102);
+  background-color: rgb(4, 184, 102);
+  border-color: rgb(4, 184, 102);
+  border: 1px solid;
 }
 .tabs {
   background-color: rgba(108, 174, 117, .97);
