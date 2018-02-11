@@ -38,7 +38,7 @@ class Slider extends Component {
         {/*<Image width={900} height={500} alt="900x500" className="carImg" src={rockStream} />*/}
         <Carousel.Caption className="slideThree jumbotron">
           <div className="container-fluid">
-            <h1 id="third">I soak up knowledge like a sponge. I love learning new languages, tools, and technologies!</h1>
+            <h1 id="third">I love learning new languages, tools, and technologies!</h1>
             <p></p>
           </div>
         </Carousel.Caption>
