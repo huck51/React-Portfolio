@@ -1,6 +1,6 @@
 
 import React, {Component} from 'react';
-import {Carousel, Image} from 'react-bootstrap';
+import {Carousel, Image, Row, Col} from 'react-bootstrap';
 import fogForest from '../Images/nature-forest-trees-fog.jpeg';
 import stones from '../Images/stackofstones.jpeg';
 import rockStream from '../Images/rockStream.jpg';
@@ -10,12 +10,12 @@ class Slider extends Component {
 
   render() {
     return (
-      <Carousel className="carousel-fade container-fluid">
+      <Carousel className="carousel-fade container-fluid" data-ride="false" data-interval="10000">
         <Carousel.Item animateIn animateOut>
           <div id="test1">
           </div>
           {/*<Image width={900} height={500} alt="900x500" className="carImg" src={fogForest} />*/}
-          <Carousel.Caption>
+          <Carousel.Caption >
             <div className="slideFourOne">
               <h1 id="evan" className="slideHead">EVAN ALLEN</h1>
               <hr className="spacer"/>

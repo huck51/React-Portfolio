@@ -84,18 +84,103 @@ li a:hover {
   width: 100%;
 }
 .carousel-caption {
+  font-size: 2em;
+  text-shadow: none;
+  color: transparent;
+  text-align: center;
+  line-height: normal;
+  background-color: rgba(250,250,250,.8);
+  border: 5px solid rgba(4, 184, 102, 1.0);
+  border-radius: 50%;
+  height: 80vw;
+  width: 80vw;
+  margin: auto;
+  bottom: 5em;
+  left: 1.5em;
+}
+@media (min-width: 576px) {
+  .carousel-caption {
+    font-size: 3.5em;
+    text-shadow: none;
+    color: transparent;
+    text-align: center;
+    line-height: normal;
+    background-color: rgba(250,250,250,.8);
+    border: 5px solid rgba(4, 184, 102, 1.0);
+    border-radius: 50%;
+    height: 65vw;
+    width: 65vw;
+    margin: auto;
+    bottom: 2em;
+    left: 2em;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-caption {
+    font-size: 3.5em;
+    text-shadow: none;
+    color: transparent;
+    text-align: center;
+    line-height: normal;
+    background-color: rgba(250,250,250,.8);
+    border: 5px solid rgba(4, 184, 102, 1.0);
+    border-radius: 50%;
+    height: 50vw;
+    width: 50vw;
+    margin: auto;
+    bottom: 1.5em;
+    left: 4em;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-caption {
+    font-size: 3.5em;
+    text-shadow: none;
+    color: transparent;
+    text-align: center;
+    line-height: normal;
+    background-color: rgba(250,250,250,.8);
+    border: 5px solid rgba(4, 184, 102, 1.0);
+    border-radius: 50%;
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    bottom: 2em;
+    left: 5em;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-caption {
+    font-size: 3.5em;
+    text-shadow: none;
+    color: transparent;
+    text-align: center;
+    line-height: normal;
+    background-color: rgba(250,250,250,.8);
+    border: 5px solid rgba(4, 184, 102, 1.0);
+    border-radius: 50%;
+    height: 39vw;
+    width: 39vw;
+    margin: auto;
+    bottom: 1.75em;
+  }
+}
+/*
+.carousel-caption {
   font-size: 4em;
   text-shadow: none;
   color: transparent;
   text-align: center;
   line-height: normal;
-  background-color: rgba(255,255,255,.7);
+  background-color: rgba(250,250,250,.7);
   border: 5px solid rgba(4, 184, 102, 1.0);
   border-radius: 50%;
-  height: 10em;
-  width: 10em;
+  height: 48vw;
+  width: 48vw;
   margin: auto;
-}
+  display: flex;
+  vertical-align: top;
+} */
 .carousel-inner {
   height: 100vh;
 }
@@ -177,17 +262,13 @@ li a:hover {
   padding-left: 0;
   padding-right: 0;
 }
-.opac {
-  background-color: rgba(255, 255, 255, .7);
-  height: 100%;
-  width: 100%;
-}
 .overUnderBar {
   width: 50%;
   margin: 0 auto;
   color: rgb(4, 184, 102);
   background-color: rgb(4, 184, 102);
   border-color: rgb(4, 184, 102);
+  border-style: ridge;
 }
 .proBox>img {
   min-width: 100%;
@@ -270,30 +351,33 @@ text-shadow: 1px 1px 2px black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1em;
+  background-size: 100vh;
 }
 .slideHeadTwo {
   color: transparent;
   background: url(./Images/stackofstones.jpeg) no-repeat;
-  background-position: center bottom;
+  background-position: center center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1em;
   margin: 1em auto;
+  background-size: 100vh;
 }
 .slideHeadThree {
   color: transparent;
   background: url(./Images/rockStream.jpg) no-repeat;
-  background-position: center bottom;
+  background-position: center center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1em;
   margin: 1em auto;
+  background-size: 100vh;
 }
 .slideFour {
   margin: 2em auto;
 }
 .slideFourOne {
-  margin: 3em auto;
+  margin: 2.35em auto;
 }
 .spacer {
   margin: 1em auto;
@@ -378,11 +462,11 @@ a.thumbnail:focus {
 #evan {
   color: transparent;
   background: url(./Images/nature-forest-trees-fog.jpeg) repeat;
-  background-position: center bottom;
+  background-position: center center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.2em;
-  background-size: 3em;
+  background-size: 100vh;
   font-weight: 600;
 }
 #intro {
