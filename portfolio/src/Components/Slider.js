@@ -10,7 +10,7 @@ class Slider extends Component {
 
   render() {
     return (
-      <Carousel className="carousel-fade container-fluid" data-ride="false" data-interval="10000">
+      <Carousel className="carousel-fade container-fluid">
         <Carousel.Item animateIn animateOut>
           <div id="test1">
           </div>
