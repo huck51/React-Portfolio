@@ -32,7 +32,7 @@ class Slider extends Component {
         {/*<Image width={900} height={500} alt="900x500" className="carImg" src={stones} />*/}
         <Carousel.Caption>
           <div className="slideFour">
-            <h1 className="slideHead">I like to build cool things that have an impact on the world</h1>
+            <h1 className="slideHeadTwo">I like to build cool things that have an impact on the world</h1>
             <p></p>
           </div>
         </Carousel.Caption>
@@ -45,7 +45,7 @@ class Slider extends Component {
         {/*<Image width={900} height={500} alt="900x500" className="carImg" src={rockStream} />*/}
         <Carousel.Caption className="">
           <div className="slideFour">
-            <h1 className="slideHead">I love learning new languages, tools, and technologies!</h1>
+            <h1 className="slideHeadThree">I love learning new languages, tools, and technologies!</h1>
             <p></p>
           </div>
         </Carousel.Caption>

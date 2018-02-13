@@ -262,37 +262,23 @@ text-shadow: 1px 1px 2px black;
   background-position: center bottom;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 1em;
 }
-.slideOne {
-  top: 10vh;
-  border-radius: 1em;
-  padding-top: 2em;
-  padding-bottom: 1em;
-  font-size: 4em;
-  /*text-shadow: 2px 2px 2px black;*/
+.slideHeadTwo {
   color: transparent;
-  text-align: center;
-  line-height: normal;
+  background: url(./Images/stackofstones.jpeg) no-repeat;
+  background-position: center bottom;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1em;
 }
-.slideTwo {
-  top: 10vh;
-  border-radius: 1em;
-  padding-top: 2em;
-  padding-bottom: 1em;
-  font-size: 3em;
-  color: rgba(0,0,0,.3);
-  text-align: center;
-  line-height: normal;
-}
-.slideThree {
-  top: 10vh;
-  border-radius: 1em;
-  padding-top: 2em;
-  padding-bottom: 1em;
-  font-size: 3em;
-  color: rgba(0,0,0,.7);
-  text-align: center;
-  line-height: normal;
+.slideHeadThree {
+  color: transparent;
+  background: url(./Images/rockStream.jpg) no-repeat;
+  background-position: center bottom;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1em;
 }
 .slideFour {
   margin: 3em auto;
@@ -379,12 +365,13 @@ a.thumbnail:focus {
 }
 #evan {
   color: transparent;
-  background: url(./Images/nature-forest-trees-fog.jpeg) no-repeat;
+  background: url(./Images/nature-forest-trees-fog.jpeg) repeat;
   background-position: center bottom;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1.3em;
-
+  font-size: 1.2em;
+  background-size: 3em;
+  font-weight: 600;
 }
 #intro {
   padding: 7em 3em;
