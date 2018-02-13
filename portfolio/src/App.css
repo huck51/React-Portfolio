@@ -83,6 +83,19 @@ li a:hover {
   max-height: 45em;
   width: 100%;
 }
+.carousel-caption {
+  font-size: 4em;
+  text-shadow: none;
+  color: transparent;
+  text-align: center;
+  line-height: normal;
+  background-color: rgba(255,255,255,.7);
+  border: 5px solid rgba(4, 184, 102, 1.0);
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+  margin: auto;
+}
 .carousel-inner {
   height: 100vh;
 }
@@ -136,6 +149,14 @@ li a:hover {
   font-size: 1.15em;
   margin: 0;
 }
+.jumbotron>.container-fluid {
+  background-color: red;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  height: 100%;
+  width: auto;
+  padding: 1em;
+}
 .linkedIn {
   background-color: rgba(0, 96, 151, 1.0);
   color: white;
@@ -155,7 +176,7 @@ li a:hover {
   padding-right: 0;
 }
 .opac {
-  background-color: rgba(200, 200, 200, .6);
+  background-color: rgba(255, 255, 255, .7);
   height: 100%;
   width: 100%;
 }
@@ -233,12 +254,19 @@ text-shadow: 1px 1px 2px black;
 .row:after, .row:before {
   content: normal;
 }
+.slideHead {
+  color: transparent;
+  background: url(./Images/nature-forest-trees-fog.jpeg) no-repeat;
+  background-position: center bottom;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .slideOne {
   top: 10vh;
   border-radius: 1em;
   padding-top: 2em;
   padding-bottom: 1em;
-  font-size: 3em;
+  font-size: 4em;
   /*text-shadow: 2px 2px 2px black;*/
   color: transparent;
   text-align: center;
@@ -250,7 +278,7 @@ text-shadow: 1px 1px 2px black;
   padding-top: 2em;
   padding-bottom: 1em;
   font-size: 3em;
-  color: transparent;
+  color: rgba(0,0,0,.3);
   text-align: center;
   line-height: normal;
 }
@@ -260,16 +288,21 @@ text-shadow: 1px 1px 2px black;
   padding-top: 2em;
   padding-bottom: 1em;
   font-size: 3em;
-  color: transparent;
+  color: rgba(0,0,0,.7);
   text-align: center;
   line-height: normal;
 }
+.slideFour {
+  margin: 3em auto;
+}
 .spacer {
-  margin-top: 1em;
+  margin: 1em auto;
   color: rgb(4, 184, 102);
   background-color: rgb(4, 184, 102);
   border-color: rgb(4, 184, 102);
   border: 1px solid;
+  font-size: .5em;
+  width: 75%;
 }
 .tabs {
   background-color: rgba(108, 174, 117, .97);
@@ -342,6 +375,15 @@ a.thumbnail:focus {
 #buttonRowSpacer {
   margin-bottom: 4em;
 }
+#evan {
+  color: transparent;
+  background: url(./Images/nature-forest-trees-fog.jpeg) no-repeat;
+  background-position: center bottom;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.3em;
+
+}
 #intro {
   padding: 7em 3em;
   background-color: white;
@@ -389,6 +431,15 @@ a.thumbnail:focus {
 }
 #test3 {
   background-image: url('./Images/rockStream.jpg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#test4 {
+  background-image: url('./Images/nature-forest-trees-fog.jpeg');
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
