@@ -95,6 +95,8 @@ li a:hover {
   height: 10em;
   width: 10em;
   margin: auto;
+  vertical-align: middle;
+  display: inline-block;
 }
 .carousel-inner {
   height: 100vh;
