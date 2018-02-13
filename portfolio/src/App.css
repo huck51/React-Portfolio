@@ -182,6 +182,13 @@ li a:hover {
   height: 100%;
   width: 100%;
 }
+.overUnderBar {
+  width: 50%;
+  margin: 0 auto;
+  color: rgb(4, 184, 102);
+  background-color: rgb(4, 184, 102);
+  border-color: rgb(4, 184, 102);
+}
 .proBox>img {
   min-width: 100%;
 }
@@ -271,6 +278,7 @@ text-shadow: 1px 1px 2px black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1em;
+  margin: 1em auto;
 }
 .slideHeadThree {
   color: transparent;
@@ -279,8 +287,12 @@ text-shadow: 1px 1px 2px black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1em;
+  margin: 1em auto;
 }
 .slideFour {
+  margin: 2em auto;
+}
+.slideFourOne {
   margin: 3em auto;
 }
 .spacer {
