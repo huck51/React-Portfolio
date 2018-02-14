@@ -1,9 +1,6 @@
 
 import React, {Component} from 'react';
-import {Carousel, Image, Row, Col} from 'react-bootstrap';
-import fogForest from '../Images/nature-forest-trees-fog.jpeg';
-import stones from '../Images/stackofstones.jpeg';
-import rockStream from '../Images/rockStream.jpg';
+import { Carousel } from 'react-bootstrap';
 import '../App.css'
 
 class Slider extends Component {

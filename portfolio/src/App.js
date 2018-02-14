@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, NavItem, Row, Col, Image } from 'react-bootstrap';
+import { Nav, NavItem, Row, Col } from 'react-bootstrap';
 // import {Formio} from 'react-formio';
 import Slider from './Components/Slider';
 import Projects from './Components/Projects';

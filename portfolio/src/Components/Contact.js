@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 // import { Formio } from 'react-formio';
-import {Row, Col, FormGroup, ControlLabel, FormControl, Button } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 import '../App.css';
 
 class Contact extends Component {

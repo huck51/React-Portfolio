@@ -84,7 +84,7 @@ li a:hover {
   width: 100%;
 }
 .carousel-caption {
-  font-size: 2em;
+  font-size: 32px;
   text-shadow: none;
   color: transparent;
   text-align: center;
@@ -92,15 +92,15 @@ li a:hover {
   background-color: rgba(250,250,250,.8);
   border: 5px solid rgba(4, 184, 102, 1.0);
   border-radius: 50%;
-  height: 80vw;
-  width: 80vw;
+  height: 325px;
+  width: 325px;
   margin: auto;
   bottom: 5em;
-  left: 1.5em;
+  left: 1.25em;
 }
 @media (min-width: 576px) {
   .carousel-caption {
-    font-size: 3.5em;
+    font-size: 40px;
     text-shadow: none;
     color: transparent;
     text-align: center;
@@ -108,16 +108,16 @@ li a:hover {
     background-color: rgba(250,250,250,.8);
     border: 5px solid rgba(4, 184, 102, 1.0);
     border-radius: 50%;
-    height: 65vw;
-    width: 65vw;
+    height: 400px;
+    width: 400px;
     margin: auto;
-    bottom: 2em;
+    bottom: 3em;
     left: 2em;
   }
 }
 @media (min-width: 768px) {
   .carousel-caption {
-    font-size: 3.5em;
+    font-size: 50px;
     text-shadow: none;
     color: transparent;
     text-align: center;
@@ -125,16 +125,16 @@ li a:hover {
     background-color: rgba(250,250,250,.8);
     border: 5px solid rgba(4, 184, 102, 1.0);
     border-radius: 50%;
-    height: 50vw;
-    width: 50vw;
+    height: 525px;
+    width: 525px;
     margin: auto;
     bottom: 1.5em;
-    left: 4em;
+    left: 2.75em;
   }
 }
 @media (min-width: 992px) {
   .carousel-caption {
-    font-size: 3.5em;
+    font-size: 56px;
     text-shadow: none;
     color: transparent;
     text-align: center;
@@ -142,16 +142,16 @@ li a:hover {
     background-color: rgba(250,250,250,.8);
     border: 5px solid rgba(4, 184, 102, 1.0);
     border-radius: 50%;
-    height: 40vw;
-    width: 40vw;
+    height: 550px;
+    width: 550px;
     margin: auto;
-    bottom: 2em;
-    left: 5em;
+    bottom: 1em;
+    left: 3.6em;
   }
 }
 @media (min-width: 1200px) {
   .carousel-caption {
-    font-size: 3.5em;
+    font-size: 56px;
     text-shadow: none;
     color: transparent;
     text-align: center;
@@ -159,11 +159,15 @@ li a:hover {
     background-color: rgba(250,250,250,.8);
     border: 5px solid rgba(4, 184, 102, 1.0);
     border-radius: 50%;
-    height: 39vw;
-    width: 39vw;
+    height: 550;
+    width: 550;
     margin: auto;
-    bottom: 1.75em;
+    bottom: 1em;
+    left: 4.75em;
   }
+}
+.carousel-indicators {
+  display: none;
 }
 .carousel-inner {
   height: 100vh;
