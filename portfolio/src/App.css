@@ -546,7 +546,7 @@ a.thumbnail:focus {
   max-height: 100vh;
   max-width: 100vw;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-position: center;
 }
@@ -557,7 +557,7 @@ a.thumbnail:focus {
   max-height: 100vh;
   max-width: 100vw;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-position: center;
 }
@@ -568,7 +568,7 @@ a.thumbnail:focus {
   max-height: 100vh;
   max-width: 100vw;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-position: center;
 }
