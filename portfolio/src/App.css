@@ -83,8 +83,9 @@ li a:hover {
   max-height: 45em;
   width: 100%;
 }
+
 .carousel-caption {
-  font-size: 32px;
+  font-size: 24px;
   text-shadow: none;
   color: transparent;
   text-align: center;
@@ -92,11 +93,45 @@ li a:hover {
   background-color: rgba(250,250,250,.8);
   border: 5px solid rgba(4, 184, 102, 1.0);
   border-radius: 50%;
-  height: 325px;
-  width: 325px;
-  margin: auto;
-  bottom: 5em;
-  left: 1.25em;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  bottom: 25%;
+  left: 11%;
+}
+@media (min-width: 375px) and (min-height: 667px) {
+  .carousel-caption {
+    font-size: 28px;
+    text-shadow: none;
+    color: transparent;
+    text-align: center;
+    line-height: normal;
+    background-color: rgba(250,250,250,.8);
+    border: 5px solid rgba(4, 184, 102, 1.0);
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+    margin: 0 auto;
+    bottom: 25%;
+    left: 12.5%;
+  }
+}
+@media (min-width: 414px) and (min-height: 736px) {
+  .carousel-caption {
+    font-size: 28px;
+    text-shadow: none;
+    color: transparent;
+    text-align: center;
+    line-height: normal;
+    background-color: rgba(250,250,250,.8);
+    border: 5px solid rgba(4, 184, 102, 1.0);
+    border-radius: 50%;
+    height: 325px;
+    width: 325px;
+    margin: 0 auto;
+    bottom: 25%;
+    left: 11%;
+  }
 }
 @media (min-width: 576px) {
   .carousel-caption {
@@ -111,7 +146,7 @@ li a:hover {
     height: 400px;
     width: 400px;
     margin: auto;
-    bottom: 3em;
+    bottom: 15%;
     left: 2em;
   }
 }
@@ -159,8 +194,25 @@ li a:hover {
     background-color: rgba(250,250,250,.8);
     border: 5px solid rgba(4, 184, 102, 1.0);
     border-radius: 50%;
-    height: 550;
-    width: 550;
+    height: 550px;
+    width: 550px;
+    margin: auto;
+    bottom: 1em;
+    left: 4.75em;
+  }
+}
+@media (min-width: 1900px) {
+  .carousel-caption {
+    font-size: 80px;
+    text-shadow: none;
+    color: transparent;
+    text-align: center;
+    line-height: normal;
+    background-color: rgba(250,250,250,.8);
+    border: 5px solid rgba(4, 184, 102, 1.0);
+    border-radius: 50%;
+    height: 850px;
+    width: 850px;
     margin: auto;
     bottom: 1em;
     left: 4.75em;
@@ -171,6 +223,7 @@ li a:hover {
 }
 .carousel-inner {
   height: 100vh;
+  justify-content: center;
 }
 .contact {
   background-color: rgba(108,174,117, .97);
