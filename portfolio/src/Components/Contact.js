@@ -19,7 +19,7 @@ class Contact extends Component {
             <Row>
               <Col md={12}>
                 <h3>Send me a message!</h3>
-                <p>" 'I don't know who you are. I don't know what you want. If you
+                <p className="contactMessage">" 'I don't know who you are. I don't know what you want. If you
                 are looking for a full stack developer, I am available for hire.
                 I have a very particular set of skills. Skills that I have acquired
                 over a very long career. Skills that make me the perfect candidate
