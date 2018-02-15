@@ -244,8 +244,27 @@ scroll-page {
   font-size: 1.25em;
 }
 .contactButtons {
-  width: 100%;
+  width: 95%;
   padding: .5em 0;
+  margin-top: 1em;
+  text-shadow: none;
+  border: 3px solid;
+  box-shadow: 3px 4px 10px black;
+}
+.contactButtons:active {
+  width: 95%;
+  padding: .5em 0;
+  margin-top: 1em;
+  text-shadow: none;
+  border: 3px solid;
+}
+.contactButtons:visited {
+  width: 95%;
+  padding: .5em 0;
+  margin-top: 1em;
+  text-shadow: none;
+  border: 3px solid;
+  box-shadow: 3px 4px 10px black;
 }
 .contactMessage {
   font-size: 1.35em;
@@ -263,12 +282,32 @@ scroll-page {
   color: darkgreen;
   border-color: darkgreen;
 }
+.fcc:active {
+  transform: translate(-4px);
+  background-color: white;
+  color: darkgreen;
+  border-color: darkgreen;
+}
+.fcc:focus {
+  background-color: darkgreen;
+  color: white;
+  border-color: white;
+}
 .gitHub {
   background-color: black;
   color: white;
 }
 .gitHub:hover {
   border-color: black;
+}
+.gitHub:active {
+  transform: translate(-4px);
+  border-color: black;
+}
+.gitHub:focus {
+  background-color: black;
+  color: white;
+  border-color: white;
 }
 .item {
   height: 100vh;
@@ -307,6 +346,17 @@ scroll-page {
   background-color: white;
   color: rgba(0, 96, 151, 1.0);
   border-color: rgba(0, 96, 151, 1.0);
+}
+.linkedIn:active {
+  transform: translate(-4px);
+  background-color: white;
+  color: rgba(0, 96, 151, 1.0);
+  border-color: rgba(0, 96, 151, 1.0);
+}
+.linkedIn:focus {
+  background-color: rgba(0, 96, 151, 1.0);
+  color: white;
+  border-color: white;
 }
 .navFixTop {
   position: fixed;
@@ -392,6 +442,16 @@ text-shadow: 1px 1px 2px black;
 .resume:hover {
   background-color: white;
   color: purple;
+}
+.resume:active {
+  transform: translate(-4px);
+  background-color: white;
+  color: purple;
+}
+.resume:focus {
+  background-color: purple;
+  color: white;
+  border-color: white;
 }
 .row {
   display: flex;
