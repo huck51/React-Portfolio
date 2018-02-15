@@ -26,7 +26,7 @@ class Contact extends Component {
                 for people like you. If you hire me now that will be the end of it.
                 But if you don't, I will look for you, I will apply at your company,
                 and I will do amazing work for you.'</p>
-                <p><a href="https://www.youtube.com/watch?v=jZOywn1qArI" target="_blank" rel="noopener noreferrer">-Liam Neeson, 2008</a> "</p>
+                <p><a className="taken" href="https://www.youtube.com/watch?v=jZOywn1qArI" target="_blank" rel="noopener noreferrer">-Liam Neeson, 2008</a> "</p>
                 <p>-Evan Allen (paraphrasing)</p>
                 {/*<p id="buttonRowSpacer">Interested in hiring me? Wanna give me feedback on
                   my portfolio? Suggest a project or feature to be built for my

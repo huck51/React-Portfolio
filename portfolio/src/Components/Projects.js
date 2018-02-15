@@ -26,7 +26,7 @@ class Projects extends Component {
                 <hr className="thumbnailHr"/>
                 <h4>JavaScript Piano</h4>
                 <input type="checkbox" className="read-more-state" id="post-1" />
-                <label for="post-1" className="read-more-trigger"></label>
+                <label htmlFor="post-1" className="read-more-trigger"></label>
                 <p id="description" className="read-more-wrap"><span className="read-more-target">A piano keyboard created using JavaScript and the Howler.js
                 library. The piano is played using the computer keyboard. When
                 a key is pressed the note is played and the corresponding key
@@ -44,7 +44,7 @@ class Projects extends Component {
                 <hr className="thumbnailHr"/>
                 <h4>Campfire Stories</h4>
                 <input type="checkbox" className="read-more-state" id="post-2" />
-                <label for="post-2" className="read-more-trigger"></label>
+                <label htmlFor="post-2" className="read-more-trigger"></label>
                 <p className="read-more-wrap"><span className="read-more-target">Campfire Stories is a review site dedicated to reviewing
                 campgrounds, hiking trails, and national parks. It is inspired
                 by Yelp and built using Node.js, Express.js, MongoDB, and
@@ -65,7 +65,7 @@ class Projects extends Component {
                 <hr className="thumbnailHr"/>
                 <h4>Arc_Hive</h4>
                 <input type="checkbox" className="read-more-state" id="post-3" />
-                <label for="post-3" className="read-more-trigger"></label>
+                <label htmlFor="post-3" className="read-more-trigger"></label>
                 <p className="read-more-wrap"><span className="read-more-target">Arc_Hive is an educational tool intended for use at Lambda
                   School that automates the instructors lengthy process of
                   creating a Zoom lecture, sharing the access link in Slack,
@@ -96,7 +96,7 @@ class Projects extends Component {
                 <hr className="thumbnailHr"/>
                 <h4>Wander Outdoor Mobile App - Coming Soon!</h4>
                 <input type="checkbox" className="read-more-state" id="post-4" />
-                <label for="post-4" className="read-more-trigger"></label>
+                <label htmlFor="post-4" className="read-more-trigger"></label>
                 <p className="read-more-wrap"><span className="read-more-target">Check back soon!</span></p>
             </Thumbnail>
           </Col>

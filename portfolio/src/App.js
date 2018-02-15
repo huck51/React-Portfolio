@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, NavItem, Row, Col } from 'react-bootstrap';
+import { Nav, Row, Col } from 'react-bootstrap';
 // import {Formio} from 'react-formio';
 import Slider from './Components/Slider';
 import Projects from './Components/Projects';
@@ -9,20 +9,20 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div id="home" className="">
+      <div id="home">
         <Nav bsStyle="pills" className="navFixTop">
           <Row className="noPadding">
-            <Col xs={3} sm={3} md={3} className="tabs">
-              <a href="#home"><NavItem href="#home">Home</NavItem></a>
+            <Col xs={3} sm={3} md={3} className="navPad">
+              <a href="#home"><div className="tabs">HOME</div></a>
             </Col>
-            <Col xs={3} sm={3} md={3} className="tabs">
-              <a href="#about"><NavItem href="#about">About</NavItem></a>
+            <Col xs={3} sm={3} md={3} className="navPad">
+              <a href="#about"><div className="tabs">ABOUT</div></a>
             </Col>
-            <Col xs={3} sm={3} md={3} className="tabs">
-              <a href="#projects"><NavItem href="#projects">Projects</NavItem></a>
+            <Col xs={3} sm={3} md={3} className="navPad">
+              <a href="#projects"><div className="tabs">PROJECTS</div></a>
             </Col>
-            <Col xs={3} sm={3} md={3} className="tabs">
-              <a href="#contact"><NavItem href="#contact">Contact</NavItem></a>
+            <Col xs={3} sm={3} md={3} className="navPad">
+              <a href="#contact"><div className="tabs">CONTACT</div></a>
             </Col>
           </Row>
         </Nav>
