@@ -35,7 +35,7 @@ class App extends Component {
               <i id="bigTree" className="fa fa-tree" aria-hidden="true"></i>
             </div>
             <h3>Responsive</h3>
-            <p className="blurb">I build responsive web apps that are accessable
+            <p className="blurb">I build responsive web apps that are accessible
             across all devices.</p>
           </Col>
           <Col xs={12} sm={12} md={3} lg={3} className="blurbSpace">
