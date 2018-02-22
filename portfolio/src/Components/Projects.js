@@ -57,7 +57,7 @@ class Projects extends Component {
           <Col xs={12} sm={12} md={6}>
             <Thumbnail
               src={arc_hive}
-              href="https://github.com/cs1Capstone/arc_hive"
+              href="https://github.com/Arc-Hive-LambdaSchool/arc_hive"
               target="_blank"
               rel="noopener noreferrer"
               className=""
